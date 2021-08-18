@@ -1,0 +1,86 @@
+#office{
+    background-color: burlywood;
+}
+h1>p{
+    width: 40%;
+    text-align: center;
+    font: 70px "Comic Sans MS";
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: dimgrey;
+    color: white;
+}
+
+span{
+    background-color: orange;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 10px;
+    color: black;
+}
+
+.main-info ul{
+    list-style-type: none;
+    width: 500px;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.main-info li{
+    margin: 10px 0;
+}
+.main-info a:link, .main-info a:visited{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font: 30px "Comic Sans MS";
+    border: 2px solid black;
+    padding: 10px 10px;
+    background-color: dimgrey;
+    border-radius: 15px;
+}
+.main-info a:hover{
+    color: black;
+    background-color: orange;
+}
+.footer-info{
+    width:100%;
+    margin-top: 50px;
+}
+.footer-info li{
+    display: inline-block;
+}
+.footer-info ul{
+    list-style-type: none;
+    margin-left: 40px;
+}
+.footer-info a:link, .footer-info a:visited{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font: 20px "Comic Sans MS";
+    border: 2px solid black;
+    padding: 5px 40px;
+    margin: 0 50px;
+    background-color: dimgrey;
+    border-radius: 15px;
+}
+.footer-info a:hover{
+    color: black;
+    background-color: orange;
+}
+.img{
+    width: 450px;
+    height: 450px;
+    border: 2px solid black;
+    float: right;
+    border-radius: 250px;
+    margin: 0 100px;
+    background-image: url(https://api.logotip.online/uploads/186a68affd0f41efbc1da27f31a2fc10.jpg);
+    background-size: 120% 100%;
+    background-position: center;
+    /*background-repeat: round;*/
+
+}
