@@ -1,9 +1,8 @@
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Office Hub</title>
-    <link rel="stylesheet" href="res/myStyles.css">
+    <link rel="stylesheet" href="res/css/myStyles.css">
 </head>
 <body id="office">
     <h1><p>Office<span>hub</span></p></h1>

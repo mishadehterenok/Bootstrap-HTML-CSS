@@ -3,21 +3,23 @@
 <html>
 <head>
     <title>Registration</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+          crossorigin="anonymous">
 </head>
 <body>
-<div class="container">
+<div class="container-fluid">
     <br>
-        <form action="" method="post">
-            <div class="form-group row">
-                <label for="email" class="col-md-2 col-form-label">Email:</label>
-                <div class="col-md-10">
+        <form action="" method="post" class="form-group">
+            <div class="row">
+                <label for="email" class="col-md-1 col-form-label">Email:</label>
+                <div class="col-md-3">
                     <input type="email" class="form-control" id="email" placeholder="Enter email">
                 </div>
             </div>
-            <div class="form-group row">
-                <label for="password" class="col-md-2 col-form-label">Password:</label>
-                <div class="col-md-10">
+            <div class="row">
+                <label for="password" class="col-md-1 col-form-label">Password:</label>
+                <div class="col-md-3">
                     <input type="password" class="form-control" id="password" placeholder="Enter password">
                 </div>
             </div>
